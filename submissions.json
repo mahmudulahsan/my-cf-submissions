@@ -1414,6 +1414,23 @@
     ],
     "timestamp": "Feb/01/2022 12:23"
   },
+  "CF74393559": {
+    "contest_id": 96,
+    "language": "GNU C11",
+    "path": "codeforces\\96\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Football",
+    "problem_url": "https://codeforces.com/contest/96/problem/A",
+    "submission_id": "CF74393559",
+    "submission_url": "https://codeforces.com/contest/96/submission/74393559",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Mar/26/2020 19:56"
+  },
   "CF74397295": {
     "contest_id": 155,
     "language": "GNU C11",
