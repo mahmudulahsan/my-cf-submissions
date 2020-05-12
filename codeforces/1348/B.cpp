@@ -22,7 +22,6 @@
 #define ll long long
 #define ull unsigned long long
 #define pi acos(-1)
-#define pb push_back
 
 using namespace std;
 
@@ -53,10 +52,10 @@ int main()
             vector<int>vec;
 
             for(it=s.begin();it!=s.end();++it){
-                vec.pb(*it);
+                vec.push_back(*it);
             }
             while(vec.size()<k){
-                vec.pb(1);
+                vec.push_back(1);
             }
 
             int j=0;
