@@ -46,7 +46,7 @@ int main()
             s.insert(a[i]);
         }
         if(s.size()>k){
-            cout<<"-1"<<endl;
+            cout<<-1<<endl;
         }
         else{
             set<int>::iterator it;
@@ -60,7 +60,7 @@ int main()
             }
 
             int j=0;
-            cout<<"10000"<<endl;
+            cout<<10000<<endl;
 
             for(int i=0;i<10000;++i){
                 cout<<vec[j]<<" ";
