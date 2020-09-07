@@ -1,25 +1,41 @@
 #include<bits/stdc++.h>
-#define ll long long
 
 using namespace std;
 
 int main()
 {
-    ll a, b, t, d;
+    long long a, b, t, d, r;
 
     cin>>t;
 
     while(t--){
-
+        mahi:
         cin>>a>>b;
 
-        d=abs(a-b);
+        long long c=0;
 
-        if(d%10==0){
-            cout<<d/10<<endl;
+        if(a<b){
+            d=(b-a)/10;
+            r=(b-a)%10;
+            if(r==0){
+                cout<<d<<endl;
+            }
+            else{
+                cout<<d+1<<endl;
+            }
+        }
+        else if(a>b){
+            d=(a-b)/10;
+            r=(a-b)%10;
+            if(r==0){
+                cout<<d<<endl;
+            }
+            else{
+                cout<<d+1<<endl;
+            }
         }
         else{
-            cout<<(d/10)+1<<endl;
+            cout<<"0"<<endl;
         }
     }
 
