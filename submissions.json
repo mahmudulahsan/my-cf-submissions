@@ -1,4 +1,22 @@
 {
+  "CF116606366": {
+    "contest_id": 1521,
+    "language": "GNU C++17",
+    "path": "codeforces\\1521\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nastia and a Good Array",
+    "problem_url": "https://codeforces.com/contest/1521/problem/B",
+    "submission_id": "CF116606366",
+    "submission_url": "https://codeforces.com/contest/1521/submission/116606366",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "May/19/2021 05:32"
+  },
   "CF116794165": {
     "contest_id": 1527,
     "language": "GNU C++17",
