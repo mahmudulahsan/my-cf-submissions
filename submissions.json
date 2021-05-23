@@ -1,4 +1,17 @@
 {
+  "CF117114741": {
+    "contest_id": 1481,
+    "language": "GNU C++17",
+    "path": "codeforces\\1481\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Space Navigation ",
+    "problem_url": "https://codeforces.com/contest/1481/problem/A",
+    "submission_id": "CF117114741",
+    "submission_url": "https://codeforces.com/contest/1481/submission/117114741",
+    "tags": [],
+    "timestamp": "May/23/2021 23:45"
+  },
   "CF117200327": {
     "contest_id": 1529,
     "language": "GNU C++17",
