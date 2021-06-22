@@ -1,4 +1,22 @@
 {
+  "CF120317866": {
+    "contest_id": 1475,
+    "language": "GNU C++17",
+    "path": "codeforces\\1475\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year's Number",
+    "problem_url": "https://codeforces.com/contest/1475/problem/B",
+    "submission_id": "CF120317866",
+    "submission_url": "https://codeforces.com/contest/1475/submission/120317866",
+    "tags": [
+      "brute force",
+      "dp",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/23/2021 00:20"
+  },
   "CF120553372": {
     "contest_id": 1541,
     "language": "GNU C++17",
