@@ -1,4 +1,20 @@
 {
+  "CF120901003": {
+    "contest_id": 1371,
+    "language": "GNU C++17",
+    "path": "codeforces\\1371\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Magical Sticks",
+    "problem_url": "https://codeforces.com/contest/1371/problem/A",
+    "submission_id": "CF120901003",
+    "submission_url": "https://codeforces.com/contest/1371/submission/120901003",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/29/2021 23:44"
+  },
   "CF121215210": {
     "contest_id": 1542,
     "language": "GNU C++17",
