@@ -1,4 +1,22 @@
 {
+  "CF122371259": {
+    "contest_id": 855,
+    "language": "GNU C++17",
+    "path": "codeforces\\855\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tom Riddle's Diary",
+    "problem_url": "https://codeforces.com/contest/855/problem/A",
+    "submission_id": "CF122371259",
+    "submission_url": "https://codeforces.com/contest/855/submission/122371259",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/13/2021 23:40"
+  },
   "CF122474192": {
     "contest_id": 1550,
     "language": "GNU C++17",
