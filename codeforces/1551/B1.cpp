@@ -20,29 +20,37 @@ int main()
     while(t--){
         string s;
         cin>>s;
+        int len = s.length();
 
-        map<int, int>mp;
+        int cnt = 0, cnt1 = 0;
+        int c = 0;
 
-        int len = s.size();
-        for(int i=0;i<len;i++){
-            mp[s[i]]++;
-        }
-
-        int cnt = 0;
-
-        for(auto u: mp){
-            if(u.second>1){
-                cnt++;
+        for(int i='a';i<='z';i++){
+            for(int j=0;j<len;j++){
+                if(s[j]==i){
+                    c++;
+                }
             }
+            if(c==1){
+                cnt++;
+                c=0;
+            }
+            else if(c>1){
+                cnt1++;
+                c=0;
+            }
+            else continue;
         }
 
-        cout<<(mp.size()-cnt)/2+cnt<<endl;
+        cout<<cnt/2+cnt1<<endl;
+
 
     }
 
 
 
     //cout<<"Case "<<i++<<":"<<" "<<sz<<endl;
+
 
     return 0;
 }
