@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -8,35 +7,29 @@ using namespace std;
 #define lcm(a,b)  (a/__gcd(a,b))*b
 #define ll        long long
 #define pb        push_back
-#define m_p       make_pair
 #define endl      '\n'
 #define yes       cout<<"YES"<<endl
 #define no        cout<<"NO"<<endl
-#define fastio       ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
+#define ios       ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
 
 int main()
 {
-    //fastio
+    //ios
 
     int t; cin>>t;
     while(t--){
         int n, k; cin>>n>>k;
-
-        vector<pair<int,int>>v;
-
-        int x, y;
-
+        int a[n], b[n];
+        int suma = 0, sumb = 0;
         for(int i=0;i<n;i++){
-            //cin>>v[i].first>>v[i].second;
-            cin>>x>>y;
-            v.pb(m_p(x,y));
+            cin>>a[i]>>b[i];
         }
 
         int cnt = 0, m = 0;
 
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if( abs(v[i].first-v[j].first)+abs(v[i].second-v[j].second)<=k ) cnt++;
+                if( abs(a[i]-a[j])+abs(b[i]-b[j])<=k ) cnt++;
             }
             if(cnt==n){
                 cout<<"1"<<endl;
