@@ -1,4 +1,20 @@
 {
+  "CF144529663": {
+    "contest_id": 1632,
+    "language": "GNU C++17",
+    "path": "codeforces\\1632\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "ABC",
+    "problem_url": "https://codeforces.com/contest/1632/problem/A",
+    "submission_id": "CF144529663",
+    "submission_url": "https://codeforces.com/contest/1632/submission/144529663",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/30/2022 20:50"
+  },
   "CF144684379": {
     "contest_id": 1633,
     "language": "GNU C++17",
